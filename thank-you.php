@@ -105,76 +105,100 @@
    
     <div class="footer__wrapper">
         <div class="container">
-              <footer class="footer">
-          
-                <div class="footer__top">
-                  <div class="footer__top-block">
-                    <div class="footer__block">
-                      <p class="footer__title">Our Contacts</p>
-                      <ul class="footer__list">
-                        <li class="footer__item">
-                          <span class="text text--mb js_website-address"></span>
-                         </li>
-                         <li class="footer__item">
-                          <a href="" class="footer__link js_website-email"></a>
-                          </li>
-                          <li class="footer__item">
-                            <a href="" class="footer__link js_website-phone"></a>
-                          </li>
-                      </ul>
-                    </div>
-              
-                    <div class="footer__block">
-                      <p class="footer__title">Policies</p>
-                      <ul class="footer__list">
-                        <li class="footer__item">
-                          <a href="./return.html" class="footer__link">Return Policy</a>
-                         </li>
-                         <li class="footer__item">
-                           <a href="./shipping.html" class="footer__link">Shipping Policy</a>
-                          </li>
-                      </ul>
-                    </div>
-                    <div class="footer__block">
-                      <p class="footer__title">Info</p>
-                      <ul class="footer__list">
-                        <li class="footer__item">
-                          <a href="./contacts.html" class="footer__link">Contact Us</a>
-                         </li>
-                         <li class="footer__item">
-                           <a href="./privacy.html" class="footer__link">Privacy Notice</a>
-                          </li>
-                       
-                      
-                      </ul>
-                    </div>
-                    <div class="footer__block">
-                      <p class="footer__title">Terms</p>
-                      <ul class="footer__list">
-                        <li class="footer__item">
-                          <a href="./purchase.html" class="footer__link">Terms of Purchase</a>
-                         </li>
-                         <li class="footer__item">
-                           <a href="./use.html" class="footer__link">Terms of Use</a>
-                          </li>
-                      </ul>
-                    </div>
-                 
-                  </div>
-                
+          <footer class="footer">
+            <p style="padding-top: 16px; font-size: 12px; margin-bottom: 3rem">
+              *Any statements on this site or any materials or supplements
+              distributed or sold by
+              <span class="js_website-name"></span> has not been evaluated by
+              the Food and Drug Administration (FDA). This product is not
+              intended to diagnose, treat, cure or prevent any disease. If you
+              are pregnant, nursing, taking medication, or have a history of
+              heart conditions we suggest consulting with a physician before
+              using any of our products. The results on all products are not
+              typical and not everyone will experience these results.
+            </p>
+            <div class="footer__top">
+              <div class="footer__top-block">
+                <div class="footer__block">
+                  <p class="footer__title">Our Contacts</p>
+                  <ul class="footer__list">
+                    <li class="footer__item">
+                      <span class="text text--mb js_website-address"></span>
+                    </li>
+                    <li class="footer__item">
+                      <a href="" class="footer__link js_website-email"></a>
+                    </li>
+                    <li class="footer__item">
+                      <a href="" class="footer__link js_website-phone"></a>
+                    </li>
+                  </ul>
                 </div>
-          
-                <div class="footer__bottom">
-                  <div class="footer__block--bottom">
-                   <div>
-                    <a href="./index.html" class="footer__logo logo js_website-name"></a>
-                    <p class="text text--mb js_website-corp"></p>
-                   </div>
-                    <span class="footer__span">© All rights reserved</span>
-                  </div>
+
+                <div class="footer__block">
+                  <p class="footer__title">Policies</p>
+                  <ul class="footer__list">
+                    <li class="footer__item">
+                      <a href="./return.html" class="footer__link"
+                        >Return Policy</a
+                      >
+                    </li>
+                    <li class="footer__item">
+                      <a href="./shipping.html" class="footer__link"
+                        >Shipping Policy</a
+                      >
+                    </li>
+                  </ul>
                 </div>
-              </footer>
+                <div class="footer__block">
+                  <p class="footer__title">Info</p>
+                  <ul class="footer__list">
+                    <li class="footer__item">
+                      <a href="./contacts.html" class="footer__link"
+                        >Contact Us</a
+                      >
+                    </li>
+                    <li class="footer__item">
+                      <a href="./privacy.html" class="footer__link"
+                        >Privacy Notice</a
+                      >
+                    </li>
+                    <li class="footer__item">
+                      <a href="./ingredients.html" class="footer__link"
+                        >Ingredients</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="footer__block">
+                  <p class="footer__title">Terms</p>
+                  <ul class="footer__list">
+                    <li class="footer__item">
+                      <a href="./purchase.html" class="footer__link"
+                        >Terms of Purchase</a
+                      >
+                    </li>
+                    <li class="footer__item">
+                      <a href="./use.html" class="footer__link">Terms of Use</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
+
+            <div class="footer__bottom">
+              <div class="footer__block--bottom">
+                <div>
+                  <a
+                    href="./index.html"
+                    class="footer__logo logo js_website-name"
+                  ></a>
+                  <p class="text text--mb js_website-corp"></p>
+                </div>
+                <span class="footer__span">© All rights reserved</span>
+              </div>
+            </div>
+          </footer>
+        </div>
       </div>
   </div>
 
