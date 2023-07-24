@@ -13,50 +13,20 @@
       <div class="header__wrapper">
         <div class="container">
           <header class="header">
-            <div class="header__top">
-              <div class="header__btn-block">
-                <button class="header__btn js_menu-btn">
-                  <span></span>
-                </button>
-              </div>
+            <a href="./index.html" class="header__logo logo js_website-name"></a>
 
-              <nav class="nav js_menu">
-                <a href="./index.html" class="header__logo logo js_website-name"></a>
-
-                <ul class="nav__list">
-                  <li class="nav__item">
-                    <a href="./contacts.html" class="nav__item">Contact Us</a>
-                  </li>
-                  <li class="nav__item">
-                    <a href="./return.html" class="nav__item">Return Policy</a>
-                  </li>
-                  <li class="nav__item">
-                    <a href="./purchase.html" class="nav__item">Terms of Purchase</a>
-                  </li>
-                  <li class="nav__item">
-                    <a href="./privacy.html" class="nav__item">Privacy Notice</a>
-                  </li>
-                  <li class="nav__item">
-                    <a href="./shipping.html" class="nav__item">Shipping Policy</a>
-                  </li>
-                  <li class="nav__item">
-                    <a href="./use.html" class="nav__item">Terms of Use</a>
-                  </li>
-                </ul>
-              </nav>
-
-              <a href="./shop.html" class="cart__span-box">
-                <svg
-                  version="1.0"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="884.000000pt"
-                  height="980.000000pt"
-                  viewBox="0 0 884.000000 980.000000"
-                  preserveAspectRatio="xMidYMid meet"
-                >
-                  <g transform="translate(0.000000,980.000000) scale(0.100000,-0.100000)" stroke="none">
-                    <path
-                      d="M4190 9785 c-397 -49 -766 -214 -1078 -479 -198 -169 -378 -403 -492
+            <a href="./shop.html" class="cart__span-box">
+              <svg
+                version="1.0"
+                xmlns="http://www.w3.org/2000/svg"
+                width="884.000000pt"
+                height="980.000000pt"
+                viewBox="0 0 884.000000 980.000000"
+                preserveAspectRatio="xMidYMid meet"
+              >
+                <g transform="translate(0.000000,980.000000) scale(0.100000,-0.100000)" stroke="none">
+                  <path
+                    d="M4190 9785 c-397 -49 -766 -214 -1078 -479 -198 -169 -378 -403 -492
                 -640 -142 -295 -175 -460 -186 -931 -2 -126 -7 -254 -10 -282 l-5 -53 -784 0
                 c-431 0 -786 -4 -789 -8 -7 -11 -57 -438 -256 -2182 -403 -3524 -580 -5101
                 -580 -5162 l0 -48 4410 0 4410 0 0 46 c0 53 -25 278 -250 2264 -404 3559 -578
@@ -75,12 +45,11 @@
                 -125 261 -2247 520 -4540 197 -1744 221 -1961 215 -1971 -8 -12 -7922 -12
                 -7929 0 -7 10 30 344 224 2061 291 2568 505 4432 516 4498 l6 32 614 0 614 0
                 0 -219z"
-                    ></path>
-                  </g>
-                </svg>
-                <span class="cart__span js_cart__span">79</span>
-              </a>
-            </div>
+                  ></path>
+                </g>
+              </svg>
+              <span class="cart__span js_cart__span">79</span>
+            </a>
           </header>
         </div>
       </div>
@@ -182,11 +151,11 @@
                   <a href="./index.html" class="footer__logo logo js_website-name"></a>
                   <p class="text text--mb js_website-corp"></p>
                 </div>
-                <span class="footer__span">© All rights reserved</span>
+                <span class="text">© All rights reserved</span>
               </div>
             </div>
           </footer>
-          <p style="padding-top: 16px; font-size: 12px; margin-bottom: 3rem">
+          <p style="padding-top: 16px; margin-bottom: 3rem" class="text">
             *Any statements on this site or any materials or supplements distributed or sold by
             <span class="js_website-name"></span> has not been evaluated by the Food and Drug Administration (FDA). This
             product is not intended to diagnose, treat, cure or prevent any disease. If you are pregnant, nursing,
@@ -201,14 +170,5 @@
     <script type="text/javascript" src="https://thebestproductmanager.com/products/prices-nxg-object"></script>
     <script type="module" src="./js/on-load.js"></script>
     <script type="module" src="./js/website-data.js"></script>
-    <script>
-      const menuBtn = document.querySelector('.js_menu-btn');
-      const menu = document.querySelector('.js_menu');
-      menuBtn.addEventListener('click', () => {
-        menuBtn.classList.toggle('active');
-        menu.classList.toggle('open-menu');
-        document.body.classList.toggle('open-menu');
-      });
-    </script>
   </body>
 </html>
